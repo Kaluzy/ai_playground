@@ -27,6 +27,7 @@
 ```
 ai_playground/
 ├── docs/           # Detailed documentation
+├── scripts/        # Automation scripts for workflow
 ├── experiments/    # Individual AI experiments (to be created)
 ├── prototypes/     # Prototype applications (to be created)
 └── examples/       # Reusable examples (to be created)

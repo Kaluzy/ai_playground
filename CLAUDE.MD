@@ -23,11 +23,18 @@ ai_playground/
 │   ├── CONTEXT.md    # Project overview and conventions
 │   ├── DECISIONS.md  # Architecture Decision Records (ADR)
 │   └── TASKS.md      # Current sprint/week tasks
+├── scripts/           # Workflow automation scripts
+│   ├── sync-from-claude.sh   # Sync from Claude sessions
+│   ├── push-for-claude.sh    # Push for next session
+│   └── status.sh             # Show git status
 ├── experiments/       # Individual AI experiments (to be created)
 ├── prototypes/        # Prototype applications (to be created)
 ├── examples/          # Code examples and templates (to be created)
+├── CONTEXT.md         # Quick reference for AIs
 ├── AGENTS.md          # Instructions for AI code completion agents
 ├── CLAUDE.MD          # This file - guidance for Claude AI
+├── CHANGELOG.md       # Change tracking log
+├── README.md          # Project overview and setup guide
 └── .git/              # Git version control
 ```
 
