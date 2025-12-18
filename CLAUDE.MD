@@ -13,13 +13,30 @@ This repository serves as a sandbox environment for:
 - Learning and documenting AI development patterns
 - Exploring prompt engineering techniques
 
+> **💡 For detailed information**: Check the `docs/` directory, especially `docs/CONTEXT.md` for comprehensive project context and conventions.
+
 ## Project Structure
 
 ```
 ai_playground/
+├── docs/              # Project documentation
+│   ├── CONTEXT.md    # Project overview and conventions
+│   ├── DECISIONS.md  # Architecture Decision Records (ADR)
+│   └── TASKS.md      # Current sprint/week tasks
+├── experiments/       # Individual AI experiments (to be created)
+├── prototypes/        # Prototype applications (to be created)
+├── examples/          # Code examples and templates (to be created)
+├── AGENTS.md          # Instructions for AI code completion agents
 ├── CLAUDE.MD          # This file - guidance for Claude AI
 └── .git/              # Git version control
 ```
+
+**Key Documentation Files**:
+- **CLAUDE.MD** (this file): Conversational AI collaboration guide
+- **AGENTS.md**: Code completion agent instructions (Copilot, Codex)
+- **docs/CONTEXT.md**: Detailed project context, structure, and conventions
+- **docs/DECISIONS.md**: Architecture decisions and rationale
+- **docs/TASKS.md**: Weekly task tracking and backlog
 
 ## Development Guidelines
 
